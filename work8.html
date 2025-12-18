@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="JS/script.js" defer></script>
+    <title>atelier cherry portfolio by Madok</title>
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <div class="header">
+            <h1><a href="index.html">
+                    <img src="image/logo.png" alt="ロゴ" class="logo"></a>
+            </h1>
+            <nav class="pc-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html#ABOUT">ABOUT</a></li>
+                    <li><a href="worklist.html">WORKS</a></li>
+                    <li><a href="contact.html" class="contact-btn">CONTACT</a></li>
+                </ul>
+            </nav>
+            <!-- スマホ版 -->
+            <div class="hamburger"><span></span></div>
+            <nav class="sp-nav">
+                <a href="index.html">
+                    <img src="image/logo2.png" alt="ロゴ" class="ul_logo">
+                </a>
+                <div class="ul_logo_wrap">
+                    <ul>
+                        <li><a href="#top">HOME</a></li>
+                        <li><a href="#ABOUT">ABOUT</a></li>
+                        <li><a href="worklist.html">WORKS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                    <div class="logo_wrap_hamburger">
+                        <div class="instagram_logo_hamburger"><a href="https://www.instagram.com/atelier.cherry58/"><img
+                                    src="image/instagram2.png" alt="Instagramのアイコン"></a></div>
+                        <div class="line_logo_hamburger"><a href="#"><img src="image/line2.png" alt="ラインのアイコン"></a>
+                        </div>
+                        <div class="threads_ligo_hamburgar"><a href="https://www.threads.com/@atelier.cherry58"><img
+                                    src="image/threads2.png" alt="スレッずのアイコン"></a></div>
+
+                    </div>
+                </div>
+            </nav>
+    </header>
+
+    <section id="works" class="works">
+        <h2 class="works-title1">Works</h2>
+
+        <!-- フィルターボタン -->
+        <div class="works-filter">
+            <a href="worklist.html?category=all" class="filter-btn">ALL</a>
+            <a href="worklist.html?category=web" class="filter-btn">WEB SITE</a>
+            <a href="worklist.html?category=banner" class="filter-btn">BANNER</a>
+            <a href="worklist.html?category=graphic" class="filter-btn">GRAPHIC</a>
+        </div>
+    </section>
+
+    <section class="work-detail">
+        <div class="work-detail-visual">
+            <img src="mock-up/burgerpop.jpg" alt="バーガーバナーモックアップ">
+        </div>
+        <h3 class="work-detail-heading">
+            オンラインスクール<br class="sp-br">デラックスバーガーバナー
+        </h3>
+
+        <table class="work-detail-table">
+            <tr>
+                <th>概要</th>
+                <td>デラックスバーガーのバナーを制作しました。<br>
+                    POPなデザインに仕上がるように、色使いを工夫しました。
+                </td>
+            </tr>
+
+            <tr>
+                <th>制作範囲</th>
+                <td>デザイン</td>
+            </tr>
+
+            <tr>
+                <th>使用ツール</th>
+                <td>Adobe illustrator / Photoshop</td>
+            </tr>
+
+            <tr>
+                <th>制作期間</th>
+                <td>3〜4日<br class="sp-br">(※目安のためボリュームによって変動する場合がございます。)</td>
+            </tr>
+        </table>
+
+        <div class="works-btn-wrap">
+            <a href="worklist.html" class="btn btn-border-shadow btn-border-shadow--color">back</a>
+        </div>
+
+    </section>
+
+    <section class="contact-section fadein" id="CONTACT">
+        <div class="contact-wrap">
+            <h2 class="contact-title">Contact</h2>
+
+            <p class="contact-lead">最後までご覧いただきましてありがとうございます。<br>
+                ご依頼やご相談等ございましたら<br class="sp-br">お気軽にお問い合わせください。</p>
+
+            <div class="contact-btn-wrap">
+                <a href="contact.html" class="btn btn-border-shadow btn-border-shadow--color">click here</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- フッター -->
+    <footer class="footer fade-bg">
+        <div class="footer-wrap">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#ABOUT">ABOUT</a></li>
+                    <li><a href="worklist.html">WORKS</a></li>
+                    <li><a href="contact.html" class="contact-btn">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer-logo-wrap">
+                <div class="instagram_logo"><a href="https://www.instagram.com/atelier.cherry58/"><img
+                            src="image/instagram.png" alt="Instagramのアイコン"></a></div>
+                <div class="line_logo"><a href="#"><img src="image/line.png" alt="ラインのアイコン"></a>
+                </div>
+                <div class="threads_ligo"><a href="https://www.threads.com/@atelier.cherry58"><img
+                            src="image/threas.png" alt="スレッずのアイコン"></a></div>
+            </div>
+
+            <div class="footer-copy">
+                <small class="footer-copy">&copy; atelier cherry portfolio</small>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
