@@ -37,8 +37,9 @@ a:hover {
     opacity: 0.7;
 }
 
-.img {
+img {
     max-width: 100%;
+    vertical-align: bottom;
 }
 
 ul {
@@ -103,14 +104,8 @@ ul {
     margin: 0 auto;
 }
 
-.pc-fv{
-    margin-top: 125px;
-    padding-left: 50px;
-    display: block;
-}
-
-.sp-fv {
-    display: none;
+picture {
+    margin-top: 200px;
 }
 
 .hamburger {
@@ -199,7 +194,6 @@ ul {
     writing-mode: sideways-rl;
     font-size: 80px;
     color: #b0c4de;
-    margin-top: 150px;
     margin-left: 50px;
     /* position: absolute; */
 }
@@ -211,17 +205,19 @@ ul {
     margin-left: 150px;
 }
 
-.concept-text h2 {
+.concept-text1 {
     font-size: 50px;
     margin-bottom: 10px;
     line-height: 1.7;
-    margin-top: 250px;
+    margin-top: 150px;
 }
 
-.concept-text p {
+
+.concept-text2 {
     line-height: 2;
     font-size: 17px;
     margin-left: 20px;
+    margin-top: 20px;
 }
 
 .sp-br {
@@ -466,8 +462,10 @@ ul {
     height: 100%;
     z-index: -1;
     margin-top: 200px;
-
+    top: 0;
+    left: 0;
 }
+
 .works-title {
     font-size: 80px;
     color: #b0c4de;
@@ -1035,9 +1033,9 @@ a.btn-border-shadow--color:before {
         height: 33px;
         cursor: pointer;
         z-index: 10001;
-        position: absolute;
+        position: fixed;
         right: 30px;
-        top: 28px;
+        top: 32px;
     }
 
     .logo_hamburger {
@@ -1159,15 +1157,6 @@ a.btn-border-shadow--color:before {
 
 @media screen and (max-width:767px) {
     /* ファーストビュー */
-    .pc-fv {
-        display: none;
-    }
-
-    .sp-fv {
-        max-width: 100%;
-        display: block;
-        margin-top: 64px;
-    }
 
     .scroll-prompt {
         display: none;
@@ -1193,7 +1182,7 @@ a.btn-border-shadow--color:before {
         margin-top: 25px;
     }
 
-    .concept-text h2 {
+    .concept-text1 {
         max-width: 100%;
         /* position: static; */
         margin: 0 ;
@@ -1202,22 +1191,16 @@ a.btn-border-shadow--color:before {
         text-align: left;
     }
 
+    .concept-text2 {
+        font-size: 16px;
+    }
+
     .pc-br {
         display: none;
     }
 
     .sp-br {
         display: block;
-    }
-
-    .concept-text p {
-        max-width: 100%;
-        margin: 0 ;
-        font-size: 16px;
-        text-align: left;
-        line-height: 2;
-        margin-top: 10px;
-        padding: 3px;
     }
 
     .concept-text {
@@ -1416,6 +1399,7 @@ a.btn-border-shadow--color:before {
     .works-label1 {
         font-size: 12px;
         padding: 5px;
+        border: #b0c4de solid 1px;
     }
 
     .works-text {
@@ -1449,7 +1433,7 @@ a.btn-border-shadow--color:before {
 
     /* フッター */
     .footer {
-        padding: 100px 0;
+        padding: 150px 0 100px;
     }
     .footer-wrap{
         margin-bottom: 100px;
@@ -1499,6 +1483,7 @@ a.btn-border-shadow--color:before {
     .works-title1 {
         font-size: 48px;
         margin: 50px;
+        margin-top: 150px;
     }
 
     .works-filter {
