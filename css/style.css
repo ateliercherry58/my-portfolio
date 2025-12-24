@@ -104,8 +104,9 @@ ul {
     margin: 0 auto;
 }
 
-picture {
-    margin-top: 200px;
+.fv {
+    margin-top: 150px;
+    text-align: center;
 }
 
 .hamburger {
@@ -509,6 +510,7 @@ picture {
     padding: 5px 8px;
     display: inline-block;
     border: #b0c4de solid;
+    white-space: nowrap;
 }
 
 .works-text {
@@ -1235,7 +1237,6 @@ a.btn-border-shadow--color:before {
     }
 
     .about-img {
-        max-width: 80%;
         margin: 0 auto;
         margin: 20px;
         padding: 20px;
